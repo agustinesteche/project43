@@ -15,8 +15,7 @@ const babelLoaderConfiguration = {
   test: /\.js$|tsx?$/,
   // Add every directory that needs to be compiled by Babel during the build.
   include: [
-    path.resolve(webDirectory, 'index.web.js'), // Entry to your application
-    path.resolve(appDirectory, 'App.js'), // Change this to your main App file
+    path.resolve(webDirectory, 'index.web.js'),
     path.resolve(appDirectory, 'src'),
     ...compileNodeModules,
   ],

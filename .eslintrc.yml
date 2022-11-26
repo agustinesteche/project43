@@ -1,0 +1,9 @@
+parser: babel-eslint
+extends:
+  - airbnb
+  - prettier
+plugins:
+  - react
+rules:
+  no-unsafe-optional-chaining: 0
+  react/jsx-filename-extension: 0
